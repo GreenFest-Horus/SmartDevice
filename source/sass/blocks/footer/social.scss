@@ -29,6 +29,7 @@
   margin-right: auto;
   fill: #00b2ff;
   margin-bottom: 30px;
+  user-select: none;
 
   @media (max-width: $tablet-width) {
     margin: 0;

@@ -7,13 +7,18 @@
   background-size: cover;
   min-height: 880px;
 
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/background_2x.jpg");
+  }
+
   @media (max-width: $tablet-width) {
     margin-top: -100px;
+    min-height: 620px;
   }
 
   @media (max-width: $mobile-width) {
     margin-top: -70px;
-    min-height: 560px;
+    min-height: 510px;
   }
 }
 
@@ -22,39 +27,44 @@
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 305px;
-  padding-left: 15px;
+  padding-top: 237px;
+  padding-left: 125px;
   padding-bottom: 10px;
   margin: 0 auto;
 
   @media (max-width: $tablet-width) {
-    padding-top: 180px;
+    padding-top: 106px;
+    padding-left: 0;
   }
 
   @media (max-width: $mobile-width) {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-left: 0;
   }
 
   h2 {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     font-family: $ff-roboto-condensed;
     font-weight: 700;
     font-size: 80px;
     line-height: 94px;
     color: #f2f5f6;
     text-transform: uppercase;
+    letter-spacing: 5.5px;
 
     @media (max-width: $tablet-width) {
       font-size: 64px;
       line-height: 75px;
-      margin-bottom: 20px;
+      margin-bottom: 1px;
+      letter-spacing: 4.5px;
     }
 
     @media (max-width: $mobile-width) {
       margin: 0 auto;
       font-size: 36px;
       line-height: 42px;
+      letter-spacing: 2.5px;
+      margin-bottom: 8px;
     }
   }
 
@@ -69,7 +79,7 @@
       font-size: 14px;
       line-height: 22px;
       margin: 0 auto;
-      margin-bottom: 50px;
+      margin-bottom: 44px;
       text-align: center;
     }
   }
@@ -100,18 +110,19 @@
   background-color: #00b2ff;
   border-radius: 3px;
   margin-left: 0;
-  margin-top: 40px;
+  margin-top: 45px;
   max-width: 410px;
   display: flex;
   flex-wrap: wrap;
+  user-select: none;
 
   @media (max-width: $tablet-width) {
-    margin-top: 50px;
+    margin-top: 58px;
     margin-left: 45px;
   }
 
   @media (max-width: $mobile-width) {
-    padding: 10px 30px;
+    padding: 12px 34px;
     max-width: 270px;
     margin: 0 auto;
   }

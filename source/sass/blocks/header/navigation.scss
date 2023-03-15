@@ -1,7 +1,7 @@
 .navigation {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 30px;
+  padding-top: 12px;
   padding-bottom: 35px;
 }
 
@@ -10,6 +10,8 @@
   flex-wrap: wrap;
   margin-right: auto;
   fill: #00b2ff;
+  user-select: none;
+  padding-top: 6px;
 
   &:hover,
   &:focus {
@@ -112,6 +114,7 @@
   margin-right: 60px;
   outline: 1px solid #f2f5f7;
   border-radius: 3px;
+  user-select: none;
 
   @media (max-width: $desktop-only) {
     margin-right: auto;

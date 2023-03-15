@@ -78,7 +78,7 @@
 }
 
 .about__text {
-  margin-bottom: 21px;
+  margin-top: 17px;
 
   @media (max-width: $tablet-width) {
     margin-bottom: 0;
@@ -98,10 +98,11 @@
   line-height: 16px;
   margin-top: 19px;
   color: #00b2ff;
-  padding: 14px 49px 14px 48px;
+  padding: 14px 59px 14px 48px;
   background-color: #ffffff;
   outline: 1px solid #00b2ff;
   text-transform: uppercase;
+  user-select: none;
 
   &:active {
     outline: 1px solid #ff8700;
