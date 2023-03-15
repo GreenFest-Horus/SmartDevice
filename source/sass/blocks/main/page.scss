@@ -144,4 +144,14 @@
       color: #f2f5f6;
     }
   }
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 8px #ff8700;
+    outline: 1px solid #ff8700;
+  }
+
+  &:active {
+    background-color: #ff8700;
+  }
 }

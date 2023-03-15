@@ -161,7 +161,7 @@
   &:hover,
   &:focus {
     outline: none;
-    background-color: rgba(#041827, 0.5);
+    background-color: rgba(#ff8700, 0.5);
     opacity: 0.8;
   }
 
@@ -191,8 +191,7 @@
     &:hover,
     &:focus {
       outline: none;
-      background-color: rgba(#041827, 0.5);
-      box-shadow: 2px 2px 2px #041827;
+      box-shadow: 0 0 8px #ff8700;
     }
 
     &:active,
@@ -250,8 +249,8 @@
       &:hover,
       &:focus {
         outline: none;
-        border-color: rgba(#041827, 0.5);
-        box-shadow: 1px 1px 1px #041827;
+        border-color: rgba(#ff8700, 0.5);
+        box-shadow: 1px 1px 1px #ff8700;
       }
 
       &:disabled {
@@ -289,12 +288,12 @@
   &:hover,
   &:focus {
     outline: none;
-    background-color: rgba(#041827, 0.5);
-    opacity: 0.8;
-    box-shadow: 2px 2px 2px #041827;
+    box-shadow: 0 0 8px #ff8700;
   }
 
   &:active {
-    opacity: 1;
+    opacity: 0.7;
+    background-color: #ff8700;
+    box-shadow: 0 0 8px #ff8700;
   }
 }
