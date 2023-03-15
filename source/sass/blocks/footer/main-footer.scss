@@ -1,0 +1,25 @@
+.main-footer {
+  background-color: #041827;
+}
+
+.main-footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 25px;
+  padding-top: 50px;
+  padding-bottom: 55px;
+
+  @media (max-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 0.81fr 1.19fr;
+    gap: 35px 17%;
+    padding-bottom: 65px;
+    padding-top: 50px;
+  }
+
+  @media (max-width: $mobile-width) {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding: 35px 0;
+  }
+}

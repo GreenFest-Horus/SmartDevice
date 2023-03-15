@@ -1,0 +1,21 @@
+.conts-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.conts-item__link {
+  margin: 0;
+  padding: 0;
+  font-family: $ff-pt-mono;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  opacity: 0.7;
+  letter-spacing: 0;
+}
