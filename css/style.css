@@ -1603,7 +1603,7 @@ p {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding-top: 30px;
+  padding-top: 12px;
   padding-bottom: 35px;
 }
 
@@ -1615,6 +1615,11 @@ p {
   flex-wrap: wrap;
   margin-right: auto;
   fill: #00b2ff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-top: 6px;
 }
 
 .navigation__link:hover,
@@ -1707,6 +1712,10 @@ p {
   margin-right: 60px;
   outline: 1px solid #f2f5f7;
   border-radius: 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .navigation__button:hover,
@@ -1750,6 +1759,10 @@ p {
   line-height: 18px;
   padding: 5px;
   fill: #00b2ff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .nav-item__link:hover,
@@ -1810,6 +1823,10 @@ p {
   margin-right: auto;
   fill: #00b2ff;
   margin-bottom: 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .social__link:hover,
@@ -1930,6 +1947,10 @@ p {
   line-height: 16px;
   color: #ffffff;
   letter-spacing: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .information__list {
@@ -2028,6 +2049,10 @@ p {
   color: #ffffff;
   opacity: 0.7;
   letter-spacing: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .info-item__link:hover,
@@ -2061,6 +2086,10 @@ p {
 .contacts__button {
   display: none;
   position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .contacts__title {
@@ -2075,6 +2104,10 @@ p {
   line-height: 16px;
   color: #ffffff;
   letter-spacing: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .contacts__list {
@@ -2116,6 +2149,10 @@ p {
   color: #ffffff;
   opacity: 0.7;
   letter-spacing: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .conts-item__link:hover,
@@ -2156,20 +2193,21 @@ p {
   justify-content: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding-top: 305px;
-  padding-left: 15px;
+  padding-top: 237px;
+  padding-left: 125px;
   padding-bottom: 10px;
   margin: 0 auto;
 }
 
 .page__promo-description h2 {
-  margin-bottom: 40px;
+  margin-bottom: 35px;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-weight: 700;
   font-size: 80px;
   line-height: 94px;
   color: #f2f5f6;
   text-transform: uppercase;
+  letter-spacing: 5.5px;
 }
 
 .page__promo-description p {
@@ -2196,13 +2234,17 @@ p {
   background-color: #00b2ff;
   border-radius: 3px;
   margin-left: 0;
-  margin-top: 40px;
+  margin-top: 45px;
   max-width: 410px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .page__promo-button p {
@@ -2250,12 +2292,13 @@ p {
   box-shadow: 5px 0 0 #00b2ff inset;
   outline: 1px solid #ebebeb;
   cursor: pointer;
+  min-height: 300px;
 }
 
 .advantages__list-item h3 {
   margin: 0;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 14px;
+  margin-bottom: 10px;
   color: #00b2ff;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-weight: 400;
@@ -2273,6 +2316,8 @@ p {
 
 .advantages__list-item svg {
   fill: #00b2ff;
+  width: 30px;
+  height: 30px;
 }
 
 .advantages__list-item:hover {
@@ -2337,7 +2382,7 @@ p {
 }
 
 .about__text {
-  margin-bottom: 21px;
+  margin-top: 17px;
 }
 
 .about__button {
@@ -2347,10 +2392,14 @@ p {
   line-height: 16px;
   margin-top: 19px;
   color: #00b2ff;
-  padding: 14px 49px 14px 48px;
+  padding: 14px 59px 14px 48px;
   background-color: #ffffff;
   outline: 1px solid #00b2ff;
   text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .about__button:active {
@@ -2401,7 +2450,7 @@ p {
   display: grid;
   -ms-grid-columns: (1fr)[3];
   grid-template-columns: repeat(3, 1fr);
-  gap: 4.4%;
+  gap: 7.4%;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -2676,6 +2725,10 @@ p {
   border-radius: 3px;
   color: #ffffff;
   background-color: #041427;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .form__submit-button:hover,
@@ -2859,16 +2912,19 @@ p {
 
   .page__promo {
     margin-top: -100px;
+    min-height: 620px;
   }
 
   .page__promo-description {
-    padding-top: 180px;
+    padding-top: 106px;
+    padding-left: 0;
   }
 
   .page__promo-description h2 {
     font-size: 64px;
     line-height: 75px;
-    margin-bottom: 20px;
+    margin-bottom: 1px;
+    letter-spacing: 4.5px;
   }
 
   .page__form-wrapper {
@@ -2876,8 +2932,17 @@ p {
   }
 
   .page__promo-button {
-    margin-top: 50px;
+    margin-top: 58px;
     margin-left: 45px;
+  }
+
+  .advantages__list {
+    margin-top: 80px;
+    gap: 28px;
+  }
+
+  .advantages__list-item h3 {
+    margin-top: 9px;
   }
 
   .about {
@@ -3011,7 +3076,7 @@ p {
   .main-footer__container {
     -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    gap: 0;
     padding: 35px 0;
   }
 
@@ -3095,11 +3160,11 @@ p {
 
   .page__promo {
     margin-top: -70px;
-    min-height: 560px;
+    min-height: 510px;
   }
 
   .page__promo-description {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-left: 0;
   }
 
@@ -3107,13 +3172,15 @@ p {
     margin: 0 auto;
     font-size: 36px;
     line-height: 42px;
+    letter-spacing: 2.5px;
+    margin-bottom: 8px;
   }
 
   .page__promo-description p {
     font-size: 14px;
     line-height: 22px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 44px;
     text-align: center;
   }
 
@@ -3122,7 +3189,7 @@ p {
   }
 
   .page__promo-button {
-    padding: 10px 30px;
+    padding: 12px 34px;
     max-width: 270px;
     margin: 0 auto;
   }
@@ -3145,6 +3212,7 @@ p {
   .advantages__list {
     -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
+    margin-top: 50px;
   }
 
   .advantages__list-item {
@@ -3346,5 +3414,11 @@ p {
 
   .custom-select__item:hover:not(.focus-visible) {
     background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 2dppx) {
+  .page__promo {
+    background-image: url("../img/background_2x.jpg");
   }
 }
