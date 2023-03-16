@@ -8,9 +8,10 @@
   @media (max-width: $tablet-width) {
     width: 100%;
     margin-right: 0;
+    margin-bottom: 16px;
   }
 
-  @media (max-width: $tablet-width) {
+  @media (max-width: $mobile-width) {
     box-shadow: 0 1px 0 #f8fdffb2 inset,
       0 -1px 0 #f8fdffb2 inset;
     padding: 0 25px;
@@ -45,7 +46,7 @@
 
 .information__title {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   padding: 0;
   padding-top: 5px;
   text-transform: uppercase;
@@ -54,8 +55,12 @@
   font-size: 15px;
   line-height: 16px;
   color: #ffffff;
-  letter-spacing: 0;
+  letter-spacing: 1px;
   user-select: none;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 21px;
+  }
 }
 
 .information__list {

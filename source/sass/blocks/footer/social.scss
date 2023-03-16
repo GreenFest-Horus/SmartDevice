@@ -91,6 +91,10 @@
   display: grid;
   gap: 15px;
   grid-template-columns: repeat(3, 40px);
+
+  @media (max-width: $tablet-width) {
+    margin-top: 15px;
+  }
 }
 
 .social__list-link {

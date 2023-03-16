@@ -9,7 +9,7 @@
     margin: 0;
   }
 
-  @media (max-width: $tablet-width) {
+  @media (max-width: $mobile-width) {
     box-shadow: 0 1px 0 #f8fdffb2 inset,
       0 -1px 0 #f8fdffb2 inset;
     padding: 0 25px;
@@ -45,7 +45,7 @@
 
 .contacts__title {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 26px;
   padding: 0;
   padding-top: 5px;
   text-transform: uppercase;
@@ -56,6 +56,10 @@
   color: #ffffff;
   letter-spacing: 0;
   user-select: none;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 19px;
+  }
 }
 
 .contacts__list {

@@ -5,14 +5,14 @@
 .main-footer__container {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 25px;
+  padding: 0 110px;
   padding-top: 50px;
   padding-bottom: 55px;
 
   @media (max-width: $tablet-width) {
     display: grid;
     grid-template-columns: 0.81fr 1.19fr;
-    gap: 35px 17%;
+    gap: 35px 20%;
     padding-bottom: 65px;
     padding-top: 50px;
   }

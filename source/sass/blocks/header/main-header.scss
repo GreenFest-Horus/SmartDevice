@@ -8,4 +8,8 @@
   @media (max-width: $tablet-width) {
     position: relative;
   }
+
+  @media (max-width: $mobile-width) {
+    min-height: 70px;
+  }
 }

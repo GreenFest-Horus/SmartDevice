@@ -10,6 +10,16 @@
   line-height: 30px;
   color: #ffffff;
 
+  @media (max-width: $tablet-width) {
+    padding-top: 56px;
+    padding-bottom: 74px;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding-top: 20px;
+    padding-bottom: 85px;
+  }
+
   h2 {
     margin: 0;
     margin-bottom: 54px;
