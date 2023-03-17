@@ -12,12 +12,14 @@
     margin-top: 78px;
     margin-bottom: 77px;
     gap: 24px;
+    column-gap: 27px;
   }
 
   @media (max-width: $mobile-width) {
     grid-template-columns: repeat(1, 1fr);
+    row-gap: 31px;
     margin-top: 50px;
-    margin-bottom: 36px;
+    margin-bottom: 44px;
   }
 }
 
@@ -49,14 +51,52 @@
     line-height: 34px;
 
     @media (max-width: $tablet-width) {
-      margin-top: 9px;
+      margin-top: 14px;
+      margin-bottom: 8px;
     }
 
     @media (max-width: $mobile-width) {
       margin-top: 11px;
-      margin-bottom: 7px;
+      margin-bottom: 9px;
       font-size: 20px;
       line-height: 28px;
+    }
+  }
+
+  &--third {
+    @media (max-width: $tablet-width) {
+      h3 {
+        margin-top: 9px;
+        margin-bottom: 7px;
+      }
+    }
+
+    @media (max-width: $mobile-width) {
+      min-height: 325px;
+
+      h3 {
+        margin-top: 12px;
+        margin-bottom: 13px;
+      }
+    }
+  }
+
+  &--fourth {
+    @media (max-width: $tablet-width) {
+      h3 {
+        margin-top: 6px;
+        margin-bottom: 4px;
+      }
+    }
+
+    @media (max-width: $mobile-width) {
+      min-height: 325px;
+      padding-right: 40px;
+
+      h3 {
+        margin-top: 13px;
+        margin-bottom: 14px;
+      }
     }
   }
 

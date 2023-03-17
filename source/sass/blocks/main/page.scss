@@ -80,7 +80,7 @@
       line-height: 22px;
       margin: 0 auto;
       margin-bottom: 44px;
-      text-align: center;
+      text-align: left;
     }
   }
 
@@ -156,8 +156,12 @@
     }
   }
 
-  &:hover,
-  &:focus {
+  &:hover {
+    box-shadow: 0 0 8px #ff8700;
+    outline: 1px solid #ff8700;
+  }
+
+  &:focus-visible {
     box-shadow: 0 0 8px #ff8700;
     outline: 1px solid #ff8700;
   }

@@ -11,13 +11,13 @@
   color: #ffffff;
 
   @media (max-width: $tablet-width) {
-    padding-top: 56px;
-    padding-bottom: 74px;
+    padding-top: 55px;
+    padding-bottom: 75px;
   }
 
   @media (max-width: $mobile-width) {
-    padding-top: 20px;
-    padding-bottom: 85px;
+    padding-top: 19px;
+    padding-bottom: 86px;
   }
 
   h2 {
@@ -126,8 +126,11 @@
     padding: 26px 30px;
   }
 
-  &:hover,
-  &:focus {
+  &:hover {
+    box-shadow: 0 0 8px #00b2ff;
+  }
+
+  &:focus-visible {
     outline: none;
     box-shadow: 0 0 8px #00b2ff;
   }

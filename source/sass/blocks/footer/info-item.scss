@@ -37,6 +37,14 @@
     grid-column: 2/3;
     grid-row: 3/4;
   }
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: -1px;
+  }
+
+  @media (max-width: $mobile-width) {
+    margin-bottom: 9px;
+  }
 }
 
 .info-item__link {
@@ -51,12 +59,13 @@
   letter-spacing: 0;
   user-select: none;
 
-  @media (max-width: $mobile-width) {
-    margin-bottom: 10px;
+  &:hover {
+    opacity: 1;
+    box-shadow: 0 0 8px #ff8700 inset;
+    outline: #ff8700;
   }
 
-  &:hover,
-  &:focus {
+  &:focus-visible {
     opacity: 1;
     box-shadow: 0 0 8px #ff8700 inset;
     outline: #ff8700;

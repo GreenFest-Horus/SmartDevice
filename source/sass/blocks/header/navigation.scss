@@ -21,8 +21,13 @@
   user-select: none;
   padding-top: 6px;
 
-  &:hover,
-  &:focus {
+  &:hover {
+    fill: #ff8700;
+    outline: 1px solid #ff8700;
+    border-radius: 3px;
+  }
+
+  &:focus-visible {
     fill: #ff8700;
     outline: 1px solid #ff8700;
     border-radius: 3px;
@@ -96,9 +101,11 @@
   padding: 0;
   align-items: center;
   margin-right: auto;
+  transform: translateX(4px);
 
   @media (max-width: $tablet-width) {
     margin-right: 20px;
+    transform: translateX(0);
   }
 
   @media (max-width: $mobile-width) {
@@ -108,19 +115,19 @@
 
 .navigation__button {
   color: #f2f5f6;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  display: inline-flex;
+  height: min-content;
+  box-sizing: border-box;
   letter-spacing: 0.5px;
   font-family: $ff-roboto-condensed;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-  padding: 10px 15px 14px;
+  padding: 11px 16px;
   margin-right: 60px;
-  outline: 1px solid #f2f5f7;
+  margin-top: 14px;
+  border: 1px solid #f2f5f7;
   border-radius: 3px;
   user-select: none;
 
@@ -132,16 +139,20 @@
     display: none;
   }
 
-  &:hover,
-  &:focus {
-    outline: 1px solid #ff8700;
+  &:hover {
+    border: 1px solid #ff8700;
+    color: #ff8700;
+  }
+
+  &:focus-visible {
+    outline: none;
+    border: 1px solid #ff8700;
     color: #ff8700;
   }
 
   &:active {
-    outline: 1px solid #ff8700;
+    border: 1px solid #ff8700;
     color: #ff8700;
     opacity: 0.7;
-    border-radius: 3px;
   }
 }

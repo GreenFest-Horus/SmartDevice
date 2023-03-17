@@ -4,6 +4,7 @@
 
     @media (max-width: $desktop-only) {
       margin-right: auto;
+      max-width: 200px;
     }
 
     @media (max-width: $tablet-width) {
@@ -25,8 +26,13 @@
   fill: #00b2ff;
   user-select: none;
 
-  &:hover,
-  &:focus {
+  &:hover {
+    fill: #ff8700;
+    outline: 1px solid #ff8700;
+    border-radius: 3px;
+  }
+
+  &:focus-visible {
     fill: #ff8700;
     outline: 1px solid #ff8700;
     border-radius: 3px;

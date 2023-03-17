@@ -6,6 +6,14 @@
   &:last-child {
     margin-bottom: 0;
   }
+
+  @media (max-width: $mobile-width) {
+    margin-bottom: 5px;
+
+    &:last-child {
+      margin-bottom: 4px;
+    }
+  }
 }
 
 .conts-item__link {
@@ -20,8 +28,25 @@
   letter-spacing: 0;
   user-select: none;
 
-  &:hover,
-  &:focus {
+  @media (max-width: $mobile-width) {
+    font-size: 14px;
+    line-height: 25px;
+
+    &--first {
+      margin-top: 5px;
+      font-size: 14px;
+      line-height: 19px;
+      margin-bottom: 12px;
+    }
+  }
+
+  &:hover {
+    opacity: 1;
+    box-shadow: 0 0 8px #ff8700 inset;
+    outline: #ff8700;
+  }
+
+  &:focus-visible {
     opacity: 1;
     box-shadow: 0 0 8px #ff8700 inset;
     outline: #ff8700;

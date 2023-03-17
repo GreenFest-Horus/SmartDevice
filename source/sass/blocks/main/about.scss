@@ -2,11 +2,11 @@
   margin-bottom: 100px;
 
   @media (max-width: $tablet-width) {
-    margin-bottom: 77px;
+    margin-bottom: 80px;
   }
 
   @media (max-width: $mobile-width) {
-    margin-bottom: 81px;
+    margin-bottom: 82px;
   }
 }
 
@@ -108,25 +108,35 @@
   color: #00b2ff;
   padding: 14px 59px 14px 48px;
   background-color: #ffffff;
-  outline: 1px solid #00b2ff;
+  border: 1px solid #00b2ff;
+  border-radius: 3px;
   text-transform: uppercase;
   user-select: none;
+
+
+  @media (max-width: $tablet-width) {
+    margin-top: 17px;
+  }
 
   @media (max-width: $mobile-width) {
     margin-top: 12px;
     padding: 9px 45px 9px 41px;
   }
 
-  &:active {
-    outline: 1px solid #ff8700;
+  &:hover {
+    border: 1px solid #ff8700;
     color: #ff8700;
-    opacity: 0.5;
   }
 
-  &:hover,
-  &:focus,
-  &:focus:not(.focus-visible) {
-    outline: 1px solid #ff8700;
+  &:focus-visible {
+    outline: none;
+    border: 1px solid #ff8700;
     color: #ff8700;
+  }
+
+  &:active {
+    border: 1px solid #ff8700;
+    color: #ff8700;
+    opacity: 0.5;
   }
 }
