@@ -57,7 +57,9 @@
               </a>
             </li>
           </ul>
-          <a href="#" class="navigation__button" data-open-modal="modal">Заказать звонок</a>
+          <div class="navigation__button-container">
+            <a href="#" class="navigation__button" data-open-modal="modal">Заказать звонок</a>
+          </div>
         </nav>
       </div>
     </header>
@@ -295,16 +297,16 @@
                   <textarea name="question" placeholder="Ваш вопрос"></textarea>
                 </label>
               </div>
-              <div class="form__input form__input--submit">
-                <button class="form__submit-button" type="submit">
-                  Задать вопрос
-                </button>
-              </div>
               <div class="form__input form__input--checkbox" data-validate-type="checkbox" data-required>
                 <label>
                   <input type="checkbox" name="agreement" checked required>
                   <span>Я&nbsp;согласен на&nbsp;обработку персональных данных</span>
                 </label>
+              </div>
+              <div class="form__input form__input--submit">
+                <button class="form__submit-button" type="submit">
+                  Задать вопрос
+                </button>
               </div>
             </div>
           </form>

@@ -1,4 +1,8 @@
 .nav-item {
+  @media (max-width: $mobile-width) {
+    padding: 0 8px;
+  }
+
   &--first {
     margin-right: 30px;
 
@@ -9,6 +13,10 @@
 
     @media (max-width: $tablet-width) {
       margin-right: 20px;
+    }
+
+    @media (max-width: $mobile-width) {
+      margin-right: 0;
     }
   }
 }
