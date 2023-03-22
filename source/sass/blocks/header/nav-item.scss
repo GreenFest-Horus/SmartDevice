@@ -1,6 +1,10 @@
 .nav-item {
-  @media (max-width: $mobile-width) {
+  min-width: 225px;
+
+  @media (max-width: $tablet-width) {
     padding: 0 8px;
+    min-width: 56px;
+    padding-bottom: 7px;
   }
 
   &--first {
@@ -12,7 +16,7 @@
     }
 
     @media (max-width: $tablet-width) {
-      margin-right: 20px;
+      margin-right: 0;
     }
 
     @media (max-width: $mobile-width) {
@@ -22,10 +26,9 @@
 }
 
 .nav-item__link {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   color: #f2f5f7;
-  min-width: 225px;
   font-family: $ff-pt-mono;
   font-weight: 400;
   font-size: 16px;

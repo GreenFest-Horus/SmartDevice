@@ -29,13 +29,10 @@
         <nav class="main-header__navigation navigation">
           <a class="navigation__link" href="index.html">
             <span class="visually-hidden">Логотип компании SmartDevice</span>
-            <svg aria-hidden="true" focusable="false" width="55" height="55">
-              <use href="img/sprite.svg#logo"></use>
-            </svg>
-            <div class="navigation__link-text">
-              <p>Smart Device</p>
-              <span>умные технологии</span>
-            </div>
+            <picture>
+              <source media="(max-width: 767px)" srcset="./img/svg/logo-mobile.svg">
+              <img src="./img/svg/logo.svg" width="215" height="55" aria-hidden="true" alt="Логотип Smart device.">
+            </picture>
           </a>
           <ul class="navigation__list">
             <li class="navigation__list-item nav-item nav-item--first">
@@ -317,14 +314,8 @@
       <div class="main-footer__container container">
         <div class="main-footer__social social">
           <a class="social__link" href="index.html">
-            <span class="visually-hidden">Логотип компании SmartDevice</span>
-            <svg aria-hidden="true" focusable="false" width="55" height="55">
-              <use href="img/sprite.svg#logo"></use>
-            </svg>
-            <div class="social__link-text">
-              <p>Smart Device</p>
-              <span>умные технологии</span>
-            </div>
+            <img src="./img/svg/logo.svg" width="215" height="55" aria-hidden="true" alt="Логотип Smart device.">
+            <span class="visually-hidden">Перейти на главную страницу сайта</span>
           </a>
           <div class="social__list">
             <a class="social__list-link" href="#">
