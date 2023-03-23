@@ -13,3 +13,16 @@
     min-height: 70px;
   }
 }
+
+.main-header__container {
+  padding: 0 50px;
+  max-width: 1320px;
+
+  @media (max-width: $tablet-width) {
+    padding: 0 50px;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding: 0 25px;
+  }
+}

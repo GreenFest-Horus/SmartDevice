@@ -5,7 +5,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 880px;
+  min-height: 875px;
 
   @media (min-resolution: 2dppx) {
     background-image: url("../img/background_2x.jpg");
@@ -51,6 +51,7 @@
     color: #f2f5f6;
     text-transform: uppercase;
     letter-spacing: 5.5px;
+    margin-top: 60px;
 
     @media (max-width: $tablet-width) {
       font-size: 64px;
